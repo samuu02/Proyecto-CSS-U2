@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Torneos y precios · La Partida</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Nunito:wght@400;700&display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/impresion.css">
+  <link rel="stylesheet" href="css/oscuro.css">
+  <link rel="stylesheet" href="css/variables.css">
+</head>
+
+<body>
+  <!-- Iconos de Tabler Icons (https://tabler.io/icons), licencia MIT -->
+  <header class="cabecera">
+    <div class="contenedor cabecera-contenido">
+      <a class="logo" href="index.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+          <circle cx="8.5" cy="8.5" r=".5" fill="currentColor" />
+          <circle cx="15.5" cy="8.5" r=".5" fill="currentColor" />
+          <circle cx="15.5" cy="15.5" r=".5" fill="currentColor" />
+          <circle cx="8.5" cy="15.5" r=".5" fill="currentColor" />
+          <circle cx="12" cy="12" r=".5" fill="currentColor" />
+        </svg>
+        La Partida
+      </a>
+      <nav class="menu" aria-label="Principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="torneos.html" aria-current="page">Torneos y precios</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="seccion">
+      <div class="contenedor">
+        <h1>Torneos y precios</h1>
+        <p class="entradilla">Los torneos están abiertos a todo el mundo: no hace falta ser socio ni traer el juego.</p>
+        <div class="tabla-desplazable" role="region" aria-label="Calendario de torneos" tabindex="0">
+          <table class="tabla">
+            <caption>Torneos de noviembre y diciembre</caption>
+            <thead>
+              <tr>
+                <th scope="col">Fecha</th>
+                <th scope="col">Juego</th>
+                <th scope="col">Formato</th>
+                <th scope="col" class="numero">Plazas</th>
+                <th scope="col" class="numero">Inscripción</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sáb 14 nov</td>
+                <td>Carcassonne</td>
+                <td>Eliminatorias de 2 jugadores</td>
+                <td class="numero">16</td>
+                <td class="numero">5 €</td>
+              </tr>
+              <tr>
+                <td>Dom 22 nov</td>
+                <td>Catan</td>
+                <td>Liga de 4 jugadores</td>
+                <td class="numero"><span class="etiqueta etiqueta-completo">Completo</span></td>
+                <td class="numero">8 €</td>
+              </tr>
+              <tr>
+                <td>Sáb 5 dic</td>
+                <td>Dixit</td>
+                <td>Mesas de 6 jugadores</td>
+                <td class="numero">24</td>
+                <td class="numero">4 €</td>
+              </tr>
+              <tr>
+                <td>Dom 13 dic</td>
+                <td>Azul</td>
+                <td>Suizo de 4 rondas</td>
+                <td class="numero">20</td>
+                <td class="numero">6 €</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="texto-suave">La inscripción se paga en la tienda o el mismo día, antes de empezar.</p>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <div class="contenedor">
+        <h2>Precios de la ludoteca</h2>
+        <div class="precios">
+          <article class="precio">
+            <h3>Partida suelta</h3>
+            <p class="precio-importe">3 €<span class="precio-unidad"> por persona</span></p>
+            <ul class="precio-lista">
+              <li>Una mesa toda la tarde</li>
+              <li>Cualquier juego de la ludoteca</li>
+            </ul>
+            <a class="boton boton-contorno" href="reserva.html">Reservar mesa</a>
+          </article>
+          <article class="precio precio-destacado">
+            <p class="etiqueta etiqueta-esquina">La más elegida</p>
+            <h3>Bono de 10 partidas</h3>
+            <p class="precio-importe">25 €<span class="precio-unidad"> el bono</span></p>
+            <ul class="precio-lista">
+              <li>Diez tardes, cuando quieras</li>
+              <li>Se puede compartir</li>
+              <li>Vale durante un año</li>
+            </ul>
+            <a class="boton" href="reserva.html">Comprar el bono</a>
+          </article>
+          <article class="precio">
+            <h3>Socio</h3>
+            <p class="precio-importe">12 €<span class="precio-unidad"> al mes</span></p>
+            <ul class="precio-lista">
+              <li>Mesa gratis de martes a jueves</li>
+              <li>10 % de descuento en la tienda</li>
+              <li>Torneos sin inscripción</li>
+            </ul>
+            <a class="boton boton-contorno" href="hazte-socio.html">Hazte socio</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie-contenido">
+      <div class="pie-marca">
+        <a class="logo" href="index.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+            <circle cx="8.5" cy="8.5" r=".5" fill="currentColor" />
+            <circle cx="15.5" cy="8.5" r=".5" fill="currentColor" />
+            <circle cx="15.5" cy="15.5" r=".5" fill="currentColor" />
+            <circle cx="8.5" cy="15.5" r=".5" fill="currentColor" />
+            <circle cx="12" cy="12" r=".5" fill="currentColor" />
+          </svg>
+          La Partida
+        </a>
+        <p>Tienda y ludoteca de juegos de mesa del barrio desde 2019.</p>
+      </div>
+      <div class="pie-horario">
+        <h2 class="pie-titulo">Horario</h2>
+        <p>De martes a viernes, de 17:00 a 22:00<br>Sábados y domingos, de 11:00 a 22:00</p>
+      </div>
+      <div class="pie-contacto">
+        <h2 class="pie-titulo">Dónde estamos</h2>
+        <p>Calle del Tablero, 7 · Madrid<br>
+          <a href="tel:+34600000001">600 000 001</a>
+        </p>
+      </div>
+      <nav class="pie-enlaces" aria-label="Pie">
+        <ul>
+          <li><a href="quienes-somos.html">Quiénes somos</a></li>
+          <li><a href="aviso-legal.html">Aviso legal</a></li>
+          <li><a href="privacidad.html">Privacidad</a></li>
+          <li>Iconos: <a href="https://tabler.io/icons">Tabler Icons</a> (MIT)</li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>

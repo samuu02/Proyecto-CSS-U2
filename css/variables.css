@@ -1,0 +1,8 @@
+:root {
+    /* Colores de la marca */
+    --color-primario: #5B2A86;
+    --color-primario-oscuro: #40205F;
+    --color-acento: #F2C14E
+        /* Colores neutros */
+        --color-fondo: #F7F4FB
+}
