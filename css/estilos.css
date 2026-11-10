@@ -1,0 +1,65 @@
+/* RESET Y ELEMENTOS */
+
+/* Cálculo de dimensiones */
+* {
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-texto);
+}
+
+/* Párrafos */
+p {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Enlaces con foco */
+a:focus {
+    outline: 2px solid var(--color-texto);
+    outline-offset: 2px;
+}
+
+/* Foco de enlaces en el pie */
+.pie a:focus {
+    outline-color: #FFFFFF;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* COMPONENTES*/
+
+
+/* UTILIDADES*/
+
+
+/* MAQUETACIÓN*/

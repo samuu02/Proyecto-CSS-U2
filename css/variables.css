@@ -1,8 +1,22 @@
 :root {
-    /* Colores de la marca */
+    /* Colores principales */
     --color-primario: #5B2A86;
     --color-primario-oscuro: #40205F;
-    --color-acento: #F2C14E
-        /* Colores neutros */
-        --color-fondo: #F7F4FB
+    --color-acento: #F2C14E;
+
+    /* Fondos y superficies */
+    --color-fondo: #F7F4FB;
+    --color-superficie: #FFFFFF;
+
+    /* Textos */
+    --color-texto: #241B2F;
+    --color-texto-suave: #5F566B;
+    --color-texto-sobre-primario: #FFFFFF;
+    --color-texto-sobre-acento: #241B2F;
+
+    /* Bordes */
+    --color-borde-suave: #DCD5E5;
+
+    /* Enlaces */
+    --color-enlace: var(--color-primario);
 }
